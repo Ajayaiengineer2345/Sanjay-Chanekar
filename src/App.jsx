@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { 
   Home, 
   Search, 
-  Campaign, 
+  Megaphone, 
   User, 
   Settings, 
   Phone, 
@@ -300,7 +300,7 @@ export default function App() {
             {[
               { id: 'home', label: 'Home', icon: Home },
               { id: 'directory', label: 'Directory', icon: Search },
-              { id: 'services', label: 'Services', icon: Campaign },
+              { id: 'services', label: 'Services', icon: Megaphone },
               { id: 'about', label: 'About', icon: User },
               { id: 'settings', label: 'Settings', icon: Settings },
             ].map(tab => {
@@ -629,7 +629,7 @@ export default function App() {
           <div className="space-y-6 animate-fade-in">
             <div className="text-center max-w-xl mx-auto space-y-2">
               <span className="inline-flex items-center space-x-1 text-xs font-bold px-2.5 py-1 rounded-full text-black bg-cyan-400">
-                <Campaign size={12} />
+                <Megaphone size={12} />
                 <span>Premium SMM Services</span>
               </span>
               <h2 className="text-2xl font-black">VidarbhaDS Growth Packages</h2>
@@ -965,7 +965,7 @@ export default function App() {
           {[
             { id: 'home', label: 'Home', icon: Home },
             { id: 'directory', label: 'Directory', icon: Search },
-            { id: 'services', label: 'Services', icon: Campaign },
+            { id: 'services', label: 'Services', icon: Megaphone },
             { id: 'about', label: 'About', icon: User },
             { id: 'settings', label: 'Settings', icon: Settings },
           ].map(tab => {
